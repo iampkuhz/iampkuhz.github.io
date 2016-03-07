@@ -73,7 +73,7 @@ excerpt_separator: "<!--more-->"
 
 # Serving
 detach:  false
-port:    4000
+#port:    4000
 host:    127.0.0.1
 # the subpath of your site, e.g. /blog/
 #baseurl: "/blog" 
