@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+    <style>
+        body {
+            padding-bottom: 200px;
+        }
+    </style>
+
+    <header>
+        <h1 class="entry-title">
+            <a onclick="window.open(this.href,'_blank');return false;" class="pjax" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}" rel="bookmark">{{ page.title }}</a></h1>
+    </header>
+
+    <div class="entry-content">
+        <footer class="default post-info">
+            <abbr class="published" title="{{ post.date | date: "%b %-d, %Y" }}">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%d %b %Y" }}</time>
+            </abbr>
+
+            <address class="vcard author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                By <span itemprop="name"><a class="url fn pjax" href="{{ "/about/" | prepend: site.baseurl | prepend: site.url }}" title="About {{ site.owner.name }}" itemprop="url">{{ site.owner.name }}</a></span>
+            </address>
+            <p>In
+                {% for tag in page.categories %}
+                <a class="pjax" href="{{ site.url }}{{ site.baseurl }}/categories/index.html#{{ page.categories | cgi_encode }}" data-toggle="tooltip" rel="tag">{{ tag | capitalize }}</a>
+                {% endfor %}
+            </p>
+
+            <!-- -->
+            <br />
+            <p>今日访问量 <a id="todaylVisit"></a></p>
+            <p>昨日访问量 <a id="lastVisit"></a></p>
+            <p>总访问量 <a id="allVisit"></a></p>
+
+        </footer><!-- /.post-info -->
+
+        <br />
+        <br />
+        <br />
+        {{ content }}
+
+        <p class="paginator">
+            {% if page.previous %}
+            <a onclick="window.open(this.href,'_blank');return false;" onclick="window.open(this.href,'_blank');return false;" class="previous pjax" href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}" rel="bookmark">&laquo; 上一页</a>
+            {% endif %}
+            {% if page.next %}
+            <a onclick="window.open(this.href,'_blank');return false;" onclick="window.open(this.href,'_blank');return false;" class="next pjax" href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}" rel="bookmark">下一页 &raquo;</a>
+            {% endif %}
+        </p><br /><br />
+    </div><!-- /.entry-content -->
+
+
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+        var duoshuoQuery = {short_name:"iampkuhz"};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0]
+            || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+
+
+</article>

@@ -1,0 +1,6 @@
+{
+    "src":          "/home/hanzhe/git/iampkuhz.github.com/images/",
+    "dest":         "qiniu:access_key=Dc5cBOFHkvFj6bCwvPqu9SG9cBj7KW42KgFda4d5&secret_key=kSaHjIEleFOuIvKhTVxUt_C9LElHzz-gGcPEdrXm&bucket=iampkuhz&key_prefix=images/",
+    "deletable":    0,
+    "debug_level":  1
+}

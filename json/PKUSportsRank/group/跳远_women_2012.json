@@ -1,0 +1,117 @@
+{
+  "chart": {
+    "legendiconscale": "1.5", 
+    "palette": "3", 
+    "legendshadow": "0", 
+    "canvasborderthickness": "1", 
+    "defaultNumberScale": " M", 
+    "caption": "甲乙组成绩对比", 
+    "showvalues": "0", 
+    "invertyaxis": "1", 
+    "canvasbgalpha": "5", 
+    "xaxisname": "名次", 
+    "subcaption": "2012年 跳远", 
+    "bgcolor": "FFFFFF", 
+    "alternatehgridcolor": "ffffff", 
+    "legendborderalpha": "0", 
+    "showborder": "0", 
+    "setadaptiveymin": "1", 
+    "canvasborderalpha": "20", 
+    "divlineisdashed": "1", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "距离", 
+    "canvasbgcolor": "66D6FF"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "甲组", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 4.43
+        }, 
+        {
+          "value": 3.99
+        }, 
+        {
+          "value": 3.79
+        }, 
+        {
+          "value": 3.75
+        }, 
+        {
+          "value": 3.72
+        }, 
+        {
+          "value": 3.65
+        }, 
+        {
+          "value": 3.6
+        }, 
+        {
+          "value": 3.53
+        }
+      ]
+    }, 
+    {
+      "seriesname": "乙组", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 3.49
+        }, 
+        {
+          "value": 3.32
+        }, 
+        {
+          "value": 3.31
+        }, 
+        {
+          "value": 3.3
+        }, 
+        {
+          "value": 3.23
+        }, 
+        {
+          "value": 3.18
+        }, 
+        {
+          "value": 3.12
+        }, 
+        {
+          "value": 2.99
+        }
+      ]
+    }
+  ]
+}

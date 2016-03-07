@@ -1,0 +1,165 @@
+{
+  "chart": {
+    "legendiconscale": "1.5", 
+    "palette": "3", 
+    "legendshadow": "0", 
+    "canvasborderthickness": "1", 
+    "defaultNumberScale": " M", 
+    "caption": "年份成绩变化", 
+    "showvalues": "0", 
+    "invertyaxis": "1", 
+    "canvasbgalpha": "5", 
+    "xaxisname": "名次", 
+    "subcaption": "甲组 标枪", 
+    "bgcolor": "FFFFFF", 
+    "alternatehgridcolor": "ffffff", 
+    "legendborderalpha": "0", 
+    "showborder": "0", 
+    "setadaptiveymin": "1", 
+    "canvasborderalpha": "20", 
+    "divlineisdashed": "1", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "距离", 
+    "canvasbgcolor": "66D6FF"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "2012", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 29.9
+        }, 
+        {
+          "value": 26.5
+        }, 
+        {
+          "value": 25.6
+        }, 
+        {
+          "value": 24.35
+        }, 
+        {
+          "value": 23.4
+        }, 
+        {
+          "value": 23.3
+        }, 
+        {
+          "value": 22.0
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2013", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 32.62
+        }, 
+        {
+          "value": 32.44
+        }, 
+        {
+          "value": 25.8
+        }, 
+        {
+          "value": 25.69
+        }, 
+        {
+          "value": 25.54
+        }, 
+        {
+          "value": 24.83
+        }, 
+        {
+          "value": 23.77
+        }, 
+        {
+          "value": 23.4
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2014", 
+      "color": "7b2381", 
+      "data": [
+        {
+          "value": 39.24
+        }, 
+        {
+          "value": 35.39
+        }, 
+        {
+          "value": 31.4
+        }, 
+        {
+          "value": 30.26
+        }, 
+        {
+          "value": 27.18
+        }, 
+        {
+          "value": 25.26
+        }, 
+        {
+          "value": 24.39
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2015", 
+      "color": "63ca23", 
+      "data": [
+        {
+          "value": 40.4
+        }, 
+        {
+          "value": 35.69
+        }, 
+        {
+          "value": 34.34
+        }, 
+        {
+          "value": 33.38
+        }, 
+        {
+          "value": 28.96
+        }, 
+        {
+          "value": 22.55
+        }
+      ]
+    }
+  ]
+}

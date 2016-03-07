@@ -1,0 +1,137 @@
+{
+  "chart": {
+    "xaxisname": "名次", 
+    "defaultNumberScale": " Sec", 
+    "subcaption": "乙组 400米", 
+    "palette": "3", 
+    "bgcolor": "FFFFFF", 
+    "invertyaxis": "1", 
+    "divlineisdashed": "1", 
+    "canvasborderthickness": "1", 
+    "numberScaleUnit": " Min, Hrs", 
+    "alternatehgridcolor": "ffffff", 
+    "legendiconscale": "1.5", 
+    "legendborderalpha": "0", 
+    "numberScaleValue": "60,60", 
+    "canvasbgalpha": "5", 
+    "scaleSeparator": " ", 
+    "legendshadow": "0", 
+    "canvasbgcolor": "66D6FF", 
+    "scaleRecursively": "1", 
+    "showvalues": "0", 
+    "caption": "年份成绩变化", 
+    "maxScaleRecursion": "-1", 
+    "setadaptiveymin": "1", 
+    "showborder": "0", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "时间", 
+    "canvasborderalpha": "20"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "2012", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 75.96
+        }, 
+        {
+          "value": 83.87
+        }, 
+        {
+          "value": 94.24
+        }, 
+        {
+          "value": 95.89
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2013", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 80.1
+        }, 
+        {
+          "value": 81.67
+        }, 
+        {
+          "value": 87.4
+        }, 
+        {
+          "value": 87.81
+        }, 
+        {
+          "value": 93.24
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2014", 
+      "color": "7b2381", 
+      "data": [
+        {
+          "value": 77.51
+        }, 
+        {
+          "value": 78.05
+        }, 
+        {
+          "value": 78.65
+        }, 
+        {
+          "value": 79.01
+        }, 
+        {
+          "value": 79.33
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2015", 
+      "color": "63ca23", 
+      "data": [
+        {
+          "value": 81.35
+        }, 
+        {
+          "value": 83.66
+        }, 
+        {
+          "value": 90.75
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "chart": {
+    "legendiconscale": "1.5", 
+    "palette": "3", 
+    "legendshadow": "0", 
+    "canvasborderthickness": "1", 
+    "defaultNumberScale": " M", 
+    "caption": "甲乙组成绩对比", 
+    "showvalues": "0", 
+    "invertyaxis": "1", 
+    "canvasbgalpha": "5", 
+    "xaxisname": "名次", 
+    "subcaption": "2013年 跳远", 
+    "bgcolor": "FFFFFF", 
+    "alternatehgridcolor": "ffffff", 
+    "legendborderalpha": "0", 
+    "showborder": "0", 
+    "setadaptiveymin": "1", 
+    "canvasborderalpha": "20", 
+    "divlineisdashed": "1", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "距离", 
+    "canvasbgcolor": "66D6FF"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "甲组", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 6.15
+        }, 
+        {
+          "value": 5.87
+        }, 
+        {
+          "value": 5.62
+        }, 
+        {
+          "value": 5.56
+        }, 
+        {
+          "value": 5.51
+        }, 
+        {
+          "value": 5.49
+        }, 
+        {
+          "value": 5.48
+        }, 
+        {
+          "value": 5.42
+        }
+      ]
+    }, 
+    {
+      "seriesname": "乙组", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 5.15
+        }, 
+        {
+          "value": 5.14
+        }, 
+        {
+          "value": 4.89
+        }, 
+        {
+          "value": 4.79
+        }, 
+        {
+          "value": 4.63
+        }, 
+        {
+          "value": 4.33
+        }, 
+        {
+          "value": 4.29
+        }, 
+        {
+          "value": 4.0
+        }
+      ]
+    }
+  ]
+}

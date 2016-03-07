@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "\u7b2c\u4e00\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u4e8c\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u4e09\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u56db\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u4e94\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u516d\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u4e03\u540d"
+        }, 
+        {
+          "label": "\u7b2c\u516b\u540d"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "2012", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 12.85
+        }, 
+        {
+          "value": 12.36
+        }, 
+        {
+          "value": 12.29
+        }, 
+        {
+          "value": 12.23
+        }, 
+        {
+          "value": 12.13
+        }, 
+        {
+          "value": 12.11
+        }, 
+        {
+          "value": 11.67
+        }, 
+        {
+          "value": 11.51
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2013", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 12.9
+        }, 
+        {
+          "value": 12.7
+        }, 
+        {
+          "value": 12.47
+        }, 
+        {
+          "value": 12.44
+        }, 
+        {
+          "value": 12.24
+        }, 
+        {
+          "value": 12.22
+        }, 
+        {
+          "value": 12.02
+        }, 
+        {
+          "value": 11.61
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2014", 
+      "color": "7b2381", 
+      "data": [
+        {
+          "value": 13.1
+        }, 
+        {
+          "value": 12.39
+        }, 
+        {
+          "value": 12.34
+        }, 
+        {
+          "value": 12.23
+        }, 
+        {
+          "value": 12.18
+        }, 
+        {
+          "value": 12.16
+        }, 
+        {
+          "value": 12.14
+        }, 
+        {
+          "value": 11.88
+        }
+      ]
+    }
+  ]
+}

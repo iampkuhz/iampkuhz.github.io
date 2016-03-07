@@ -1,0 +1,28 @@
+pre code{
+    font-family: "Ubuntu Mono";
+}
+
+blockquote{
+    margin-top: 5px;
+}
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  text-align:left;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+dt {
+  color:#444;
+  font-weight:700;
+}
+
+th {
+  color:#444;
+}
+

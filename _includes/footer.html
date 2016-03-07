@@ -1,0 +1,36 @@
+<section id="extras" class="body">
+    <div class="blogroll">
+        <h2>blogroll</h2>
+        <ul>
+            {% for roll in site.rolls %}
+            <li><a href="{{ roll.url }}" target="_blank">{{ roll.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div><!-- /.blogroll -->
+    <div class="social">
+        <h2>follow</h2>
+        <ul>
+            <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" type="application/atom+xml" rel="alternate">atom feed</a></li>
+            {% if site.github_username %}
+            <li><a href="https://github.com/{{ site.github_username }}" target="_blank">github</a></li>
+            {% endif %}
+            {% if site.facebook %}
+            <li><a href="http://facebook.com/{{ site.facebook }}" target="_blank">facebook</a></li>
+            {% endif %}
+            {% if site.weibo %}
+            <li><a href="http://weibo.com/u/{{ site.weibo }}/" target="_blank">weibo</a></li>
+            {% endif %}
+            {% if site.twitter_username %}
+            <li><a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">twitter</a></li>
+            {% endif %}
+        </ul>
+    </div><!-- /.social -->
+</section><!-- /#extras -->
+
+<footer id="contentinfo" class="body">
+    <address id="about" class="vcard body">
+        Proudly powered by <a href="http://jekyllrb.com/">Jekyll</a> Theme by <a href="https://github.com/iampkuhz/iampkuhz.github.io">jekyll pelican theme</a>.
+    </address><!-- /#about -->
+
+    <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+</footer>

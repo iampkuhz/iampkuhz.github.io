@@ -1,0 +1,111 @@
+{
+    "chart": {
+        "caption": "Population Chart",
+        "showvalues": "0",
+        "snumbersuffix": "%",
+        "decimals": "3",
+        "setadaptiveymin": "1",
+        "setadaptivesymin": "1",
+        "linethickness": "5",
+        "showborder": "0"
+    },
+    "categories": [
+        {
+            "category": [
+                {
+                    "name": "2000"
+                },
+                {
+                    "name": "2001"
+                },
+                {
+                    "name": "2002"
+                },
+                {
+                    "name": "2003"
+                },
+                {
+                    "name": "2004"
+                },
+                {
+                    "name": "2005"
+                }
+            ]
+        }
+    ],
+    "dataset": [
+        {
+            "seriesname": "Population",
+            "data": [
+                {
+                    "value": "275562673"
+                },
+                {
+                    "value": "278558081"
+                },
+                {
+                    "value": "280562489"
+                },
+                {
+                    "value": "290342551"
+                },
+                {
+                    "value": "290342551"
+                },
+                {
+                    "value": "293027112"
+                }
+            ]
+        },
+        {
+            "parentyaxis": "S",
+            "seriesname": "Birth Rate",
+            "renderas": "Line",
+            "data": [
+                {
+                    "value": "1.42"
+                },
+                {
+                    "value": "1.42"
+                },
+                {
+                    "value": "1.41"
+                },
+                {
+                    "value": "1.414"
+                },
+                {
+                    "value": "1.413"
+                },
+                {
+                    "value": "1.414"
+                }
+            ]
+        },
+        {
+            "parentyaxis": "S",
+            "seriesname": "Death Rate",
+            "renderas": "Line",
+            "data": [
+                {
+                    "value": "0.87"
+                },
+                {
+                    "value": "0.87"
+                },
+                {
+                    "value": "0.87"
+                },
+                {
+                    "value": "0.844"
+                },
+                {
+                    "value": "0.834"
+                },
+                {
+                    "value": "0.825"
+                }
+            ]
+        }
+    ]
+}

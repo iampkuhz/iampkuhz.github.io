@@ -1,0 +1,51 @@
+<script src="http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+<script src="http://cdn.bootcss.com/jquery.pjax/1.9.2/jquery.pjax.min.js"></script>
+<script src="http://cdn.bootcss.com/nprogress/0.1.6/nprogress.min.js"></script>
+<script>
+    $(document).pjax('.pjax', '#pjax-container',{ fragment: '#pjax-container', timeout: 10000 });
+    $(document).on({
+        'pjax:click': function () {
+            NProgress.start();
+        },
+        'pjax:end': function () {
+            NProgress.done();
+        },
+    });
+</script>
+
+
+<!-- baidu analytics !-->
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?b0c4f8a67819e80d6d727c56bcce932d";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+<!--显示访问量 -->
+<!-- 更新文章访问次数 -->
+<script  type="text/javascript" src="/php/BlogVisitCount/visit.js"></script>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/js/flat-ui.min.js"></script>
+<script src="/js/application.js"></script>
+
+<script>
+    $(document).ready(function(){
+//        alert("redy");
+        UpdateBlogVisit("{{page.title}}");
+        $('select[name="inverse-dropdown"], select[name="inverse-dropdown-optgroup"], select[name="inverse-dropdown-disabled"]').select2({dropdownCssClass: 'select-inverse-dropdown'});
+
+        $('select[name="searchfield"]').select2({dropdownCssClass: 'show-select-search'});
+        $('select[name="inverse-dropdown-searchfield"]').select2({dropdownCssClass: 'select-inverse-dropdown show-select-search'});
+    });
+</script>
+
+

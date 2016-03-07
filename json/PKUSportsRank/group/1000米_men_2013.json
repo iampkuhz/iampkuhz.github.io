@@ -1,0 +1,72 @@
+{
+  "chart": {
+    "xaxisname": "名次", 
+    "defaultNumberScale": " Sec", 
+    "subcaption": "2013年 1000米", 
+    "palette": "3", 
+    "bgcolor": "FFFFFF", 
+    "invertyaxis": "1", 
+    "divlineisdashed": "1", 
+    "canvasborderthickness": "1", 
+    "numberScaleUnit": " Min, Hrs", 
+    "alternatehgridcolor": "ffffff", 
+    "legendiconscale": "1.5", 
+    "legendborderalpha": "0", 
+    "numberScaleValue": "60,60", 
+    "canvasbgalpha": "5", 
+    "scaleSeparator": " ", 
+    "legendshadow": "0", 
+    "canvasbgcolor": "66D6FF", 
+    "scaleRecursively": "1", 
+    "showvalues": "0", 
+    "caption": "甲乙组成绩对比", 
+    "maxScaleRecursion": "-1", 
+    "setadaptiveymin": "1", 
+    "showborder": "0", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "时间", 
+    "canvasborderalpha": "20"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "甲组", 
+      "color": "008ee4", 
+      "data": []
+    }, 
+    {
+      "seriesname": "乙组", 
+      "color": "f8bd19", 
+      "data": []
+    }
+  ]
+}

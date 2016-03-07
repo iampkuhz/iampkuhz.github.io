@@ -1,0 +1,146 @@
+{
+  "chart": {
+    "legendiconscale": "1.5", 
+    "palette": "3", 
+    "legendshadow": "0", 
+    "canvasborderthickness": "1", 
+    "defaultNumberScale": " M", 
+    "caption": "年份成绩变化", 
+    "showvalues": "0", 
+    "invertyaxis": "1", 
+    "canvasbgalpha": "5", 
+    "xaxisname": "名次", 
+    "subcaption": "乙组 铁饼", 
+    "bgcolor": "FFFFFF", 
+    "alternatehgridcolor": "ffffff", 
+    "legendborderalpha": "0", 
+    "showborder": "0", 
+    "setadaptiveymin": "1", 
+    "canvasborderalpha": "20", 
+    "divlineisdashed": "1", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "距离", 
+    "canvasbgcolor": "66D6FF"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "2012", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 19.03
+        }, 
+        {
+          "value": 17.01
+        }, 
+        {
+          "value": 15.37
+        }, 
+        {
+          "value": 13.92
+        }, 
+        {
+          "value": 13.58
+        }, 
+        {
+          "value": 13.16
+        }, 
+        {
+          "value": 12.83
+        }, 
+        {
+          "value": 12.06
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2013", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 19.05
+        }, 
+        {
+          "value": 18.71
+        }, 
+        {
+          "value": 16.65
+        }, 
+        {
+          "value": 16.17
+        }, 
+        {
+          "value": 12.85
+        }, 
+        {
+          "value": 12.83
+        }, 
+        {
+          "value": 12.67
+        }, 
+        {
+          "value": 11.86
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2014", 
+      "color": "7b2381", 
+      "data": [
+        {
+          "value": 22.85
+        }, 
+        {
+          "value": 20.83
+        }, 
+        {
+          "value": 20.02
+        }, 
+        {
+          "value": 19.0
+        }, 
+        {
+          "value": 14.82
+        }, 
+        {
+          "value": 13.19
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2015", 
+      "color": "63ca23", 
+      "data": []
+    }
+  ]
+}

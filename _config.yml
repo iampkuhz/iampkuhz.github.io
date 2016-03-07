@@ -1,0 +1,132 @@
+# Site settings
+title: iampkuhz
+email: iampkuhz@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  写点什么好呢?
+keywords: "iampkuhz, chinese wikipedia, ubuntu"
+favicon: /images/icons/favicon.ico
+owner:
+  name:           iampkuhz
+github_username:  iampkuhz
+weibo: 1885066123
+facebook: iampkuhz
+google_plus:
+instagram: iampkuhz
+flickr:
+twitter_username: iampkuhz
+
+# For IMG redirecting
+IMG_PATH : https://dn-iampkuhz.qbox.me/images
+
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: 全部文章
+    url: / 
+  - title: 分类
+    url: /categories
+  #- title: 标签
+    #url: /tags
+  - title: 关于
+    url: /about
+
+# Links to dispaly in blogroll
+rolls:
+  - title: csdn
+    url: http://blog.csdn.net/iampkuhz
+
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir:     ./_plugins
+#iplugins:     ./_plugins
+layouts_dir:     ./_layouts
+#layouts:     ./_layouts
+data_dir: ./_data
+#data_source: ./_data
+collections: null
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      [jekyll-paginate]
+
+# Conversion
+markdown:    kramdown
+#highlighter: pygments
+highlighter: rouge
+lsi:         false
+excerpt_separator: "<!--more-->"
+
+# Serving
+detach:  false
+port:    4000
+host:    127.0.0.1
+# the subpath of your site, e.g. /blog/
+#baseurl: "/blog" 
+#url: "http://iampkuhz.github.io" # the base hostname & protocol for your site
+
+# Backwards-compatibility
+relative_permalinks: false
+
+# Outputting
+permalink: /:categories/:title
+#permalink: pretty
+paginate: 10
+paginate_path: /page:num
+timezone:      Asia/Shanghai
+
+quiet:    false
+defaults: []
+
+# Markdown Processors
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+  fenced_code_blocks: true
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
+
+redcloth:
+  hard_breaks: true
+
+sass:
+    sass_dir: _sass
+    style: :compressed

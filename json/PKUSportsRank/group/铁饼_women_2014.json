@@ -1,0 +1,105 @@
+{
+  "chart": {
+    "legendiconscale": "1.5", 
+    "palette": "3", 
+    "legendshadow": "0", 
+    "canvasborderthickness": "1", 
+    "defaultNumberScale": " M", 
+    "caption": "甲乙组成绩对比", 
+    "showvalues": "0", 
+    "invertyaxis": "1", 
+    "canvasbgalpha": "5", 
+    "xaxisname": "名次", 
+    "subcaption": "2014年 铁饼", 
+    "bgcolor": "FFFFFF", 
+    "alternatehgridcolor": "ffffff", 
+    "legendborderalpha": "0", 
+    "showborder": "0", 
+    "setadaptiveymin": "1", 
+    "canvasborderalpha": "20", 
+    "divlineisdashed": "1", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "距离", 
+    "canvasbgcolor": "66D6FF"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "甲组", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 17.68
+        }, 
+        {
+          "value": 15.55
+        }, 
+        {
+          "value": 15.52
+        }, 
+        {
+          "value": 12.3
+        }, 
+        {
+          "value": 11.15
+        }, 
+        {
+          "value": 8.37
+        }, 
+        {
+          "value": 7.67
+        }, 
+        {
+          "value": 7.54
+        }
+      ]
+    }, 
+    {
+      "seriesname": "乙组", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 13.05
+        }, 
+        {
+          "value": 12.5
+        }, 
+        {
+          "value": 10.75
+        }, 
+        {
+          "value": 10.71
+        }
+      ]
+    }
+  ]
+}

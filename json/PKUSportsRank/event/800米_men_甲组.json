@@ -1,0 +1,182 @@
+{
+  "chart": {
+    "xaxisname": "名次", 
+    "defaultNumberScale": " Sec", 
+    "subcaption": "甲组 800米", 
+    "palette": "3", 
+    "bgcolor": "FFFFFF", 
+    "invertyaxis": "1", 
+    "divlineisdashed": "1", 
+    "canvasborderthickness": "1", 
+    "numberScaleUnit": " Min, Hrs", 
+    "alternatehgridcolor": "ffffff", 
+    "legendiconscale": "1.5", 
+    "legendborderalpha": "0", 
+    "numberScaleValue": "60,60", 
+    "canvasbgalpha": "5", 
+    "scaleSeparator": " ", 
+    "legendshadow": "0", 
+    "canvasbgcolor": "66D6FF", 
+    "scaleRecursively": "1", 
+    "showvalues": "0", 
+    "caption": "年份成绩变化", 
+    "maxScaleRecursion": "-1", 
+    "setadaptiveymin": "1", 
+    "showborder": "0", 
+    "alternatehgridalpha": "100", 
+    "yaxisname": "时间", 
+    "canvasborderalpha": "20"
+  }, 
+  "categories": [
+    {
+      "category": [
+        {
+          "label": "第一名"
+        }, 
+        {
+          "label": "第二名"
+        }, 
+        {
+          "label": "第三名"
+        }, 
+        {
+          "label": "第四名"
+        }, 
+        {
+          "label": "第五名"
+        }, 
+        {
+          "label": "第六名"
+        }, 
+        {
+          "label": "第七名"
+        }, 
+        {
+          "label": "第八名"
+        }
+      ]
+    }
+  ], 
+  "dataset": [
+    {
+      "seriesname": "2012", 
+      "color": "008ee4", 
+      "data": [
+        {
+          "value": 124.83
+        }, 
+        {
+          "value": 128.22
+        }, 
+        {
+          "value": 137.39
+        }, 
+        {
+          "value": 140.39
+        }, 
+        {
+          "value": 140.6
+        }, 
+        {
+          "value": 143.31
+        }, 
+        {
+          "value": 143.32
+        }, 
+        {
+          "value": 143.44
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2013", 
+      "color": "f8bd19", 
+      "data": [
+        {
+          "value": 140.73
+        }, 
+        {
+          "value": 144.19
+        }, 
+        {
+          "value": 145.63
+        }, 
+        {
+          "value": 146.91
+        }, 
+        {
+          "value": 148.49
+        }, 
+        {
+          "value": 149.72
+        }, 
+        {
+          "value": 151.93
+        }, 
+        {
+          "value": 151.99
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2014", 
+      "color": "7b2381", 
+      "data": [
+        {
+          "value": 135.28
+        }, 
+        {
+          "value": 137.86
+        }, 
+        {
+          "value": 140.07
+        }, 
+        {
+          "value": 142.14
+        }, 
+        {
+          "value": 142.42
+        }, 
+        {
+          "value": 142.77
+        }, 
+        {
+          "value": 142.82
+        }, 
+        {
+          "value": 145.39
+        }
+      ]
+    }, 
+    {
+      "seriesname": "2015", 
+      "color": "63ca23", 
+      "data": [
+        {
+          "value": 138.02
+        }, 
+        {
+          "value": 145.29
+        }, 
+        {
+          "value": 146.54
+        }, 
+        {
+          "value": 146.65
+        }, 
+        {
+          "value": 148.66
+        }, 
+        {
+          "value": 152.2
+        }, 
+        {
+          "value": 152.71
+        }, 
+        {
+          "value": 156.26
+        }
+      ]
+    }
+  ]
+}
