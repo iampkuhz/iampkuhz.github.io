@@ -2,7 +2,7 @@
 layout: post
 title: "linux 高分屏软件适配"
 desciption: "整理在ubuntu上适配软件的过程"
-modified: 2015-04-09
+date: 2015-05-06 15:47:00
 category: ubuntu/linux
 comments: true
 ---
