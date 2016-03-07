@@ -1,0 +1,98 @@
+---
+layout: post
+title: "linux 压缩 解压缩 命令整理"
+desciption: "整理linux压缩和解压缩命令,免得老baidu"
+modified: 2015-04-09
+category: ubuntu/linux
+comments: true
+---
+
+tar.bz2, gz, zip
+<br/>
+<br />
+<br/>
+<!--more--> 
+
+`.gz`,`.bz2`文件命令行下可以用`less`,`vim`直接看，但是实际使用建议解压成`.gz`文件，因为[java读取大文件的`.bz2`文件会出错](http://arthur503.github.io/blog/2013/09/07/how-to-read-bz2-file-in-java.html), 我实验发现两种方法都不行
+
+
+## gz
+
+{% highlight bash lineno %}
+# 压缩
+# 把name文件压缩为name.gz文件,保留原文件
+gzip -c name > name.gz
+
+# 解压缩
+# 把file.gz解压缩为fileName,保留源文件,但是不能解压.sql.gz
+gunzip -c file.gz > fileName
+# file.gz解压,不保留源文件
+gzip -d file.gz
+{% endhighlight %}
+
+<br/>
+
+## tar.bz2
+
+
+{% highlight bash lineno %}
+# 压缩
+tar -cjf name.tar.bz2 folder/ # 把folder文件夹压缩为name.tar.bz2文件
+# 解压缩
+tar -xjf name.tar.bz2 # 解压缩name.tar.bz2 到当前文件夹
+tar -xjf name.tar.bz2 -C folder2/ # 解压缩name.tar.bz2 到folder2文件夹
+tar -cjf name.tar.bz2 folder/
+{% endhighlight %}
+
+<br/>
+
+## bz2
+
+{% highlight bash lineno %}
+# 压缩
+bzip -zkf file 
+bzip -zckf file > tarFile
+# 解压缩
+bzip -dkf file.bz2 # 压缩到当前文件夹，名字叫file
+bzip -cdkf filePath > tarPath # 解压到指定文件夹
+{% endhighlight %}
+
+<br/>
+
+
+### .zip
+
+
+{% highlight bash lineno %}
+# 压缩
+zip -r tarFile.zip folder/ #把folder文件夹的内容压缩到tarFile.zip文件
+# 解压缩
+unzip name.zip # 解压缩name.zip 到当前文件夹
+unzip name.zip -d folder2/ # 解压缩name.zip  到folder2文件夹
+unzip -O GBK name.zip # 将windows下压缩的name.zip在linux中解压缩
+{% endhighlight %}
+
+### .rar
+
+
+{% highlight bash lineno %}
+# 压缩
+rar a file.rar file  # 将file文件压缩成file.rar文件
+
+# 解压缩
+unrar e file.rar # 解压到当前文件夹
+unrar x file.rar folder/ #解压到指定文件夹
+{% endhighlight %}
+
+### .tgz
+
+{% highlight bash lineno %}
+# 压缩
+tar -cvpzf tarFOlder/file.tgz folder
+
+# 解压缩
+tar -zxf file.tgz -C folder
+{% endhighlight %}
+
+
+

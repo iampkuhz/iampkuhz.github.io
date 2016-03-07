@@ -1,0 +1,78 @@
+---
+layout: post
+title: "Java备忘"
+date: 2015-04-13 16:33:00
+category: 日常
+---
+
+# HashMap用自定义类作为key 
+
+### 参见：[java HashMap用自定义类作为key](http://blog.csdn.net/crush_on/article/details/18358549)
+
+<!--more-->
+
+保证 `public boolean equals(Object obj)` 能正确区分即可，为了加快速度可以再重载 `public int hashCode()`
+
+{% highlight java linenos %}
+class IntPair{
+	private int i1;
+	private int i2;
+	public IntPair(int i1, int i2){
+		this.i1 = i1;
+		this.i2 = i2;
+	}
+		
+	public boolean equals(Object obj){
+		if(this == obj)//判断是否是本类的一个引用
+			return true;
+		if(obj == null)//
+			return false;			
+		IntPair pair = (IntPair)obj;
+		if(this.i1 != pair.i1)
+			return false;
+		if(this.i2 != pair.i2)
+			return false;
+		return true;
+	}
+		
+	public int hashCode(){
+		int result = 17;
+		result = result * 31 + i1;
+		result = result * 31 + i2;
+		return result;
+	}
+}
+{% endhighlight %}
+
+
+<br/>
+
+---
+
+<br/>
+
+## PreparedStatement insert BatchUpdateException
+
+prepareStatement函数参数的sql语句不能以";"结尾
+
+## Double.parseDouble("1.00084e-06")可以正确解析
+
+<br/>
+
+# 实例化comparator报错“Comparison method violates its general contract!”
+
+本来比较的是Double型变量，改用`Double.compare`即可
+
+{% highlight java linenos %}
+ArrayList<Entry<IntPairUnique,Double>> al = new ArrayList<Entry<IntPairUnique,Double>>(); 
+Collections.sort(al, new Comparator<Entry<IntPairUnique, Double>>(){
+	public int compare(Entry<IntPairUnique, Double> o1,
+			Entry<IntPairUnique, Double> o2) {
+		return Double.compare(o2.getValue(), o1.getValue());
+	}
+});
+{% endhighlight %}
+
+
+<!-- 多说评论框 start -->
+<div class="ds-thread" data-thread-key="no comment!" data-title="{{ site.title }}" data-url="{{ site.url }}"></div>

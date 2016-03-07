@@ -1,0 +1,48 @@
+---
+layout: post
+title: "linux 高分屏软件适配"
+desciption: "整理在ubuntu上适配软件的过程"
+modified: 2015-04-09
+category: ubuntu/linux
+comments: true
+---
+
+记录在高分屏上安装软件遇到的问题，解决高分辨的适配问题。我的电脑thinkpad x1 carbon 2014: 2560×1440
+
+ubuntu系统，firefox，chrome，eclipse
+<!--more-->
+
+---
+
+# ubuntu系统环境
+
+搜索软件“display”，设置“scale for memu and title bars”为1.6左右
+
+> -   可以解决大部分字体显示问题，包括shell界面字体大小
+
+<br/>
+
+--- 
+
+# firefox
+
+地址栏键入
+{% highlight console %}
+about:config
+{% endhighlight %}
+
+修改参数为1.5
+
+{% highlight console %}
+layout.css.devPixelsPerPx
+{% endhighlight %}
+
+<br/>
+
+--- 
+
+# chrome
+
+采用最新版的chromium即可（任务栏图标放大会有些失真）
+
+> - ubuntu可以安装chrome，但是标签栏不能自动适配，只能修改页面的默认字体大小/页面放大倍数
