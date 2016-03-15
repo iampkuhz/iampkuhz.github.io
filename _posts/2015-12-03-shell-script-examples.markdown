@@ -33,6 +33,7 @@ awk '/str/{print NR; exit;}' file
 
 {% highlight bash %}
 sort -u -k1,1 file | wc -l # 统计文件中第一列不重复的个数
+sort file1>a; sort file2>b; comm -12 a b; # 查看2个文件相同的行
 {% endhighlight %}
 
 

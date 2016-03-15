@@ -43,7 +43,6 @@ layouts_dir:     ./_layouts
 #layouts:     ./_layouts
 data_dir: ./_data
 #data_source: ./_data
-collections: null
 
 # Handling Reading
 safe:         false
@@ -83,8 +82,11 @@ host:    127.0.0.1
 relative_permalinks: false
 
 # Outputting
-permalink: /:categories/:title
-#permalink: pretty
+#permalink: /:categories/:title
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:title
 paginate: 10
 paginate_path: /page:num
 timezone:      Asia/Shanghai
