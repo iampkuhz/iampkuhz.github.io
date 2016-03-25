@@ -23,6 +23,8 @@ tar.bz2, gz, zip
 # 压缩
 # 把name文件压缩为name.gz文件,保留原文件
 gzip -c name > name.gz
+# 快速将文件夹打包生成tar.gz, 压缩率最低
+GZIP=-9 tar cvzf file.tar.gz folder/
 
 # 解压缩
 # 把file.gz解压缩为fileName,保留源文件,但是不能解压.sql.gz
