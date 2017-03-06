@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubuntu备忘"
-date: 2015-04-06 16:33:00
+date: 2017-02-19 16:33:00
 category: ubuntu/linux 
 ---
 
@@ -10,6 +10,25 @@ category: ubuntu/linux
 <br/>
 
 <!--more-->
+
+### [07029] indicator菜单栏显示当前网速
+
+[http://www.webupd8.org/2015/05/yet-another-network-speed-ubuntu.html](http://www.webupd8.org/2015/05/yet-another-network-speed-ubuntu.html)
+
+### [070219] 设置不同IP使用不同网络
+
+所里面网络太慢，普通网站加载、下载速度太慢, wireless PKU 快多了；但是服务器、实验室台式机又必须有内网才能登陆。之前都是需要登服务器和实验室台式机的时候连有线，其他时候把网线拔掉。网上搜到教程，可以不同插拔网线，ubuntu可以直接指定任意网络只对特定IP段的网址进行路由，按照[ubuntu下同时使用wifi和ethernet教程](http://aleksz-programming.blogspot.jp/2013/01/using-wifi-and-network-cable-at-same.html)设置即可
+
+### [070215] 桌面 todo-list 插件
+
+1. plexydesk : [http://www.omgubuntu.co.uk/2016/09/plexydesk-widgets-linux-desktop-ppa]
+    1. 将其加入开机启动
+
+### [060806] ubuntu 搭建 vpn
+
+1. 以前基于 [](http://www.liuchungui.com/blog/2016/04/23/ubuntuxia-da-jian-vpn/) 的方法在Linode vps上成功过，今天在digitalocean vps上面使用iphone能链接，但是百度打不开
+2. 今天采用[setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md#ubuntu--debian)的方法在digitalocean搭建l2tp，iphone 可以链接，网页能打开
+
 
 ### [1216] 删除git 记录中错误加入的大文件
 
