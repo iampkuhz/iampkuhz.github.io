@@ -64,7 +64,7 @@ whitelist: []
 gems:      [jekyll-paginate]
 
 # Conversion
-markdown:    kramdown
+#markdown:    syntax_highlighter_opts
 #highlighter: pygments
 highlighter: rouge
 lsi:         false
@@ -118,12 +118,12 @@ kramdown:
   enable_coderay: false
 
   coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
+    wrap:              div
+    line_numbers:      inline
+    line_number_start: 1
+    tab_width:         4
+    bold_every:        10
+    css:               style
 
 redcloth:
   hard_breaks: true
